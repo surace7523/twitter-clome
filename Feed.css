@@ -1,0 +1,40 @@
+.feed {
+ flex: 0.4;
+ border-right: 2px solid#808080;
+ min-width:700px;
+ overflow-y: scroll;
+
+
+}
+
+
+.feed_header {
+
+    position: sticky;
+    top: 0;
+
+    background-color: #ffffff;
+    z-index: 100;
+    border: 2px solid #808080;
+    padding: 15px 20px;
+
+
+}
+
+
+    .feed_header > h2 {
+    
+    font-size: 20px;
+    font-weight: 800;
+    
+    }
+
+
+    /*hide scroll bar from chrome*/
+
+.feed::-webkit-scrollbar {
+/*
+display: none;
+
+*/
+}
